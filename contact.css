@@ -1,0 +1,171 @@
+﻿/* ================= Basic common design =============== */
+/*font1-Roboto Slab */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+/*font1-Martel */
+ @import url('https://fonts.googleapis.com/css2?family=Martel&family=Roboto+Slab&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Martel', sans-serif;
+}
+
+/* =============== general header styling =============== */
+header {
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	height: 100px;
+	margin: 0 auto 20px auto;
+	border-bottom: 1px solid black;
+}
+
+.mainHeading {
+	align-self: center;
+	font-size: 35px;
+	color: #333D79FF;
+}
+
+.mainNav {
+	width: 500px;
+	display: flex;
+}
+
+nav,
+ul,
+li,
+a {
+	font-family: Martel;
+	font-weight: 600;
+	list-style: none;
+	text-decoration: none;
+	align-self: center;
+	padding: 0 10px;
+	color: #4B878BFF;
+	word-spacing: 3px;
+	letter-spacing: 0.5px;
+}
+
+a:visited 
+{
+  color: #4B878BFF;
+}
+
+a:hover 
+{
+	color: #ADEFD1FF;
+	background-color: #333D79FF;
+}
+
+a:active 
+{
+	color: black;
+}
+
+/* =============== main content design =============== */
+main {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+article {
+	padding: 0 10px 0 0;
+}
+
+p {
+	margin: 20px 0;
+	text-align: justify;
+	line-height: 25px;
+	width: 1200px;
+}
+
+span {
+	text-transform: capitalize;
+}
+
+ul {
+	align-self: flex-start;
+	padding: 0 20px;
+}
+
+ul,
+li {
+	margin: 20px 0;
+}
+
+
+/* =============== contact.html contact =============== */
+/* ---- contact form ---- */
+.form_container {
+	width: 450px;
+	height: 500px;
+	margin: 40px auto;
+	border: 1px solid rgb(200, 200, 200);
+	background-color: rgba(198, 255, 251, 0.2);
+	border-radius: 3px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+form > span {
+	font-size: 25px;
+	color: #4B878BFF;
+	font-weight:600;
+}
+
+label > input,
+label > textarea {
+	width: 300px;
+	padding: 10px 0 5px 10px;
+	background-color: rgba(32, 178, 170, 0.1);
+	border-radius: 5px 5px 0px 0px;
+}
+
+	label > input:hover,
+	label > textarea:hover {
+		background-color: rgba(32, 178, 171, 0.2);
+		border-radius: 5px 5px 0px 0px;
+	}
+
+	label > input:focus,
+	label > textarea:focus {
+		background-color: rgba(32, 178, 171, 0.4);
+		border-radius: 5px 5px 0px 0px;
+		outline: none;
+	}
+
+
+input {
+	border: none;
+	border-bottom: 1px solid rgba(32, 178, 170, 0.5);
+}
+
+textarea {
+	border: none;
+}
+
+.submitBtn {
+	border: none;
+	font-size: 20px;
+	padding: 10px;
+	background-color: rgba(32, 178, 170, 0.5);
+	color: rgb(8, 71, 68);
+	border-radius: 2px 2px 2px 2px;
+	text-transform: uppercase;
+}
+
+
+/* =============== footer design =============== */
+footer {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	border-top: 1px solid black;
+	color: #333D79FF;
+}

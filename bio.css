@@ -1,0 +1,162 @@
+﻿/* ================= Basic common design =============== */
+/*font1-Roboto Slab */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+/*font1-Martel */
+@import url('https://fonts.googleapis.com/css2?family=Martel&family=Roboto+Slab&display=swap');
+
+/* ================= Basic Reset =============== */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Martel', sans-serif;
+}
+
+/* =============== general header styling =============== */
+header {
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	height: 100px;
+	margin: 0 auto 20px auto;
+	border-bottom: 1px solid black;
+}
+
+.mainHeading {
+	align-self: center;
+	font-size: 35px;
+	color: #333D79FF;
+}
+
+.mainNav {
+	width: 500px;
+	display: flex;
+}
+
+nav,
+ul,
+li,
+a {
+	font-family: Martel;
+	font-weight: 600;
+	list-style: none;
+	text-decoration: none;
+	align-self: center;
+	padding: 0 10px;
+	color: #4B878BFF;
+	word-spacing: 3px;
+	letter-spacing: 0.5px;
+}
+
+	a:visited {
+		color: #4B878BFF;
+	}
+
+	a:hover {
+		color: #ADEFD1FF;
+		background-color: #333D79FF;
+	}
+
+	a:active {
+		color: black;
+	}
+
+/* =============== main content design =============== */
+main {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+article {
+	padding: 0 10px 0 0;
+}
+
+
+p {
+	margin: 20px 0;
+	text-align: justify;
+	line-height: 25px;
+	width: 1200px;
+}
+
+ul {
+	align-self: flex-start;
+	padding: 0 20px;
+}
+
+ul,
+li {
+	margin: 20px 0;
+}
+/* =============== bio.html Biography =============== */
+
+.mainBioContainer {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	/* justify-content: space-between; */
+	/* flex-wrap: wrap; */
+	flex-direction: column;
+}
+
+.mainBioContainer > h1 {
+		align-self: center;
+		margin: 20px;
+}
+
+.bioNav {
+	width: 30%;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+.firstalbum,
+.secondalbum,
+.thirdalbum
+.fourthalbum
+.fifththalbum
+.Actor {
+	align-self: center;
+}
+
+.firstHeading {
+	border-bottom: 1px dashed gray;
+}
+
+.firstalbum {
+	border-bottom: 1px dashed gray;
+}
+
+.secondalbum {
+	border-bottom: 1px dashed gray;
+}
+
+.thirdalbum {
+	border-bottom: 1px dashed gray;
+}
+
+.fourthalbum {
+	border-bottom: 1px dashed gray;
+}
+
+.fifththalbum {
+	border-bottom: 1px dashed gray;
+}
+
+.AmediBio h1, 
+ section h1{
+	color: #333D79FF;
+}
+
+.cotarot-mishne {
+	color: #4B878BFF;
+}
+/* =============== General footer =============== */
+footer {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	border-top: 1px solid black;
+}

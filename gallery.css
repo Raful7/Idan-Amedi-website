@@ -1,0 +1,105 @@
+﻿/* ================= Basic common design =============== */
+/*font1-Roboto Slab */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+/*font1-Martel */
+@import url('https://fonts.googleapis.com/css2?family=Martel&family=Roboto+Slab&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Martel', sans-serif;
+}
+
+/* =============== general header styling =============== */
+header {
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	height: 100px;
+	margin: 0 auto 20px auto;
+	border-bottom: 1px solid black;
+}
+
+.mainHeading {
+	align-self: center;
+	font-size: 35px;
+	color: #333D79FF;
+}
+
+.mainNav {
+	width: 500px;
+	display: flex;
+}
+
+nav,
+ul,
+li,
+a {
+	font-family: Martel;
+	font-weight: 600;
+	list-style: none;
+	text-decoration: none;
+	align-self: center;
+	padding: 0 10px;
+	color: #4B878BFF;
+	word-spacing: 3px;
+	letter-spacing: 0.5px;
+}
+
+	a:visited {
+		color: #4B878BFF;
+	}
+
+	a:hover {
+		color: #ADEFD1FF;
+		background-color: #333D79FF;
+	}
+
+	a:active {
+		color: black;
+	}
+
+/* =============== main content =============== */
+main {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+article {
+	padding: 0 10px 0 0;
+}
+
+
+
+/* ---- aside/infoBox ---- */
+ul {
+	align-self: flex-start;
+	padding: 0 20px;
+}
+
+ul,
+li {
+	margin: 20px 0;
+}
+
+/* ===============  Gallery design =============== */
+figure {
+	display: flex;
+	width: 80%;
+	margin: 40px auto;
+}
+
+/* =============== General footer =============== */
+
+footer {
+	width: 80%;
+	margin: 0 auto;
+	text-align: left;
+	padding: 10px;
+	border-top: 1px solid black;
+	justify-content: left;
+	color: #333D79FF;
+}
